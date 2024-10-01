@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .cont{
+            padding: 15px;
+            margin-bottom: 19px;
+            border: 1px solid black;
+            
+        }
+        .inline{
+            background-color: lightgray;
+            padding: 18px;
+            display: inline;
+            margin: 0 8px;
+            color: blue;
+        }
+        .inline-block{
+            display: inline-block;
+            padding: 8px;
+            margin: 0 8px;
+            background-color: lightgray;
+            border: 1px solid black;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <p>Some paragraph <span class="inline">We're</span> <span class="inline">inline</span>
+        <span class="inline">Button</span></p>
+    </div>
+
+    <div class="cont">
+        <p>Some paragraph <span class="inline-block">We're</span><span class="inline-block">inline-block</span>
+        <span class="inline-block">Buttons</span></p>
+    </div>
+</body>
+</html>

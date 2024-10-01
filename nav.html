@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            background-color: rgb(77, 77, 194);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            height: 40px;
+            list-style: none;
+        }
+        .navbar p{
+            font-size: larger;
+            font-weight: bolder;
+            color: white;
+            
+        }
+        .link{
+            list-style: none;
+            display: flex;
+            
+        }
+        .link li a{
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 10px;
+        
+        }
+        .login a{
+            font-size: 15px;
+            padding: 7px 12px;
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+            <p>Navbar</p>
+            <ul class="link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="login">
+            <li><a href="#">Login</a></li>
+        </div>
+    </nav>
+</body>
+</html>
